@@ -2,12 +2,10 @@
     // original string
     $text = 'sono andato al supermercato a comprare il pane:';
     echo $text;
-    echo strlen($text);
-
-    echo "<br>";
+    echo "<br>" .strlen($text);
 
     // censored
     $badword = $_GET['badword'];
-    echo $replaced = str_replace($badword, "***", $text);
-    echo strlen($replaced);
+    echo "<br>" .$replaced = str_replace($badword, "***", $text);
+    echo "<br>" .strlen($replaced);
 ?>
