@@ -1,3 +1,9 @@
+<form method="get">
+    <input type="text" placeholder="parola da censurare" name="badword">
+    <input type="submit">
+</form>
+
+
 <?php
     // original string
     $text = 'sono andato al supermercato a comprare il pane:';
